@@ -6,7 +6,7 @@ int main(){
     cout << "Enter your grade: ";
     cin >> grade;
     
-    switch(grade){
+    switch(grade){ // the expersion inside switch must be and intager number not float or these stuff
         case 90:
             cout << "You Got A";
             break;

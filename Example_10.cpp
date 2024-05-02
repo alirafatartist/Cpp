@@ -25,5 +25,7 @@ int main(){
 }
 /* For Example if we don't add break; 
 if input was 70 the output will be
-you got c you got d
+you got c 
+you got d 
+Sorry , You Got F in
 */

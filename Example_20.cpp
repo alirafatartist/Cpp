@@ -64,3 +64,59 @@ int main(){
 // the square root for num1 is: 2
 // the square root for num2 is: 3
 // the the num1 raised to the power of num2 is: 262144
+
+
+
+
+// • For Example : write a program that ask the user to Enter 2 integer numbers
+// and print out the larger of them.
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+    int num1,num2;
+    
+  cout << "Enter num1: ";
+  cin >> num1;
+  cout << "Enter num2: ";
+  cin >> num2;
+  
+  if(num1>num2){
+      cout << "The larger number is number1 which is " << num1;
+  }else if(num1 == num2){
+      cout << "The two numbers are equal";
+  }else{
+      cout << "The larger number is number2 which is " << num2;
+  }
+}
+// Way 2
+// • For Example : write a program that ask the user to Enter 2 integer numbers
+// and print out the larger of them.
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int larger(int num1,int num2){
+    if(num1>num2){
+      cout << "The larger number is number1 which is " << num1;
+  }else if(num1 == num2){
+      cout << "The two numbers are equal";
+  }else{
+      cout << "The larger number is number2 which is " << num2;
+  }
+}
+
+int main(){
+    int num1,num2;
+    
+  cout << "Enter num1: ";
+  cin >> num1;
+  cout << "Enter num2: ";
+  cin >> num2;
+  
+  return larger(num1,num2);
+}
+
